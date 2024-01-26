@@ -139,7 +139,7 @@ class MessBot(Client):
                     if end_index < len(self.available_commands):
                         reply += f"\nUse `{prefix}list {page_number + 1}` to view the next page."
                     self.sendmessage(author_id, thread_id, thread_type, reply)
-                    image_path = "commands/images/mahiro.jpeg"
+                    image_path = "commands/images/aki.jpg"
                     self.sendLocalImage(
     image_path,message=Message(text="All available commands."),thread_id=thread_id,thread_type=thread_type)
                 else:
